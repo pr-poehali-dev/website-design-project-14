@@ -190,6 +190,21 @@ export default function Index() {
               <Icon name="MessageCircle" size={18} />
               Связаться в Макс
             </a>
+            <a
+              href="https://www.fullerenclub.ru/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 px-8 py-4 rounded-full font-montserrat font-medium text-base transition-all duration-300 hover:scale-105"
+              style={{
+                border: "1px solid rgba(255,255,255,0.15)",
+                background: "rgba(255,255,255,0.04)",
+                color: "rgba(232,228,255,0.7)",
+                backdropFilter: "blur(10px)",
+              }}
+            >
+              <Icon name="Globe" size={18} />
+              Перейти на сайт
+            </a>
           </div>
         </div>
 
