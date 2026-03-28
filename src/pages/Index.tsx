@@ -351,17 +351,13 @@ export default function Index() {
                   style={{ background: "radial-gradient(circle, #c9a84c 0%, transparent 70%)" }}
                 />
                 <div
-                  className="relative w-72 h-72 md:w-80 md:h-80 rounded-3xl overflow-hidden"
-                  style={{ border: "1px solid rgba(201,168,76,0.2)" }}
+                  className="relative w-72 h-80 md:w-80 md:h-96 rounded-3xl overflow-hidden flex items-end justify-center"
+                  style={{ border: "1px solid rgba(201,168,76,0.2)", background: "linear-gradient(to bottom, rgba(13,11,46,0.6) 0%, rgba(4,3,15,0.8) 100%)" }}
                 >
                   <img
-                    src="https://cdn.poehali.dev/projects/4d42a0ab-9035-47df-ab8c-33a5c4f90991/files/b3d5b6df-30a2-4a17-bbd2-6b3b382f3cb2.jpg"
+                    src="https://cdn.poehali.dev/projects/4d42a0ab-9035-47df-ab8c-33a5c4f90991/bucket/69c7a875-7d5f-4950-8750-0182c4dc3020.png"
                     alt="Ефремова Мария Викторовна"
-                    className="w-full h-full object-cover"
-                  />
-                  <div
-                    className="absolute inset-0"
-                    style={{ background: "linear-gradient(to top, rgba(4,3,15,0.6) 0%, transparent 60%)" }}
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
                 <div className="absolute -top-6 -right-6 w-16 h-16 text-yellow-400 opacity-40 animate-spin-slow">
