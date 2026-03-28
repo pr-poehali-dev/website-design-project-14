@@ -136,9 +136,13 @@
       background: rgba(201,168,76,0.05);
       color: rgba(201,168,76,0.8);
       padding: 8px 20px; border-radius: 999px;
-      font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase;
+      font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
       backdrop-filter: blur(10px);
       margin-bottom: 32px;
+      text-align: center;
+    }
+    @media (max-width: 480px) {
+      .badge { font-size: 10px; padding: 7px 14px; letter-spacing: 0.08em; }
     }
 
     .date-row {
@@ -167,7 +171,7 @@
       justify-content: center; align-items: center;
     }
     .btn {
-      display: inline-flex; align-items: center; gap: 10px;
+      display: inline-flex; align-items: center; justify-content: center; gap: 10px;
       padding: 14px 28px; border-radius: 999px;
       font-family: 'Montserrat', sans-serif; font-size: 15px;
       text-decoration: none; cursor: pointer;
@@ -175,6 +179,10 @@
       white-space: nowrap;
     }
     .btn:hover { transform: scale(1.05); }
+    @media (max-width: 600px) {
+      .btn-group { flex-direction: column; width: 100%; }
+      .btn { width: 100%; font-size: 14px; padding: 14px 20px; }
+    }
     .btn-gold {
       background: linear-gradient(135deg, #c9a84c 0%, #f0d080 100%);
       color: #04030f; font-weight: 700;
@@ -203,6 +211,10 @@
 
     /* ── SECTIONS COMMON ── */
     .section-py { padding: 96px 16px; }
+    @media (max-width: 600px) {
+      .section-py { padding: 60px 16px; }
+      .section-header { margin-bottom: 40px; }
+    }
     .section-label {
       display: inline-flex; align-items: center; gap: 8px;
       color: rgba(201,168,76,0.6); font-size: 11px;
@@ -256,9 +268,13 @@
     @media (min-width: 768px) { .cards-2 { grid-template-columns: repeat(2, 1fr); } }
 
     .program-item {
-      display: flex; gap: 20px; padding: 24px; border-radius: 16px;
+      display: flex; gap: 16px; padding: 20px; border-radius: 16px;
       border: 1px solid rgba(201,168,76,0.12);
       transition: background 0.3s;
+    }
+    @media (max-width: 480px) {
+      .program-item { padding: 16px; gap: 12px; }
+      .program-num { font-size: 28px; }
     }
     .program-item:hover { background: rgba(255,255,255,0.02); }
     .program-num {
@@ -293,6 +309,7 @@
       background: linear-gradient(to bottom, rgba(13,11,46,0.6) 0%, rgba(4,3,15,0.8) 100%);
     }
     @media (min-width: 768px) { .speaker-photo { width: 320px; height: 384px; } }
+    @media (max-width: 480px) { .speaker-photo { width: 240px; height: 270px; } }
     .speaker-photo img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
 
     .speaker-fl-tr {
@@ -369,8 +386,9 @@
 
     /* ── CTA SECTION ── */
     #cta { padding: 96px 16px; }
+    @media (max-width: 600px) { #cta { padding: 60px 16px; } }
     .cta-box {
-      position: relative; border-radius: 24px; padding: 64px 40px;
+      position: relative; border-radius: 24px; padding: 48px 24px;
       overflow: hidden; text-align: center;
       background: radial-gradient(ellipse at center, rgba(201,168,76,0.08) 0%, rgba(13,11,46,0.8) 70%);
       border: 1px solid rgba(201,168,76,0.2);
@@ -421,6 +439,30 @@
 
     /* ── ICON SVGs ── */
     .icon { display: inline-block; width: 1em; height: 1em; vertical-align: middle; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+    /* ── MOBILE HERO ── */
+    @media (max-width: 480px) {
+      #hero { padding: 100px 20px 80px; }
+      .hero-title-size { font-size: clamp(36px, 11vw, 60px); }
+      .date-row { font-size: 14px; gap: 10px; }
+      .hero-fullerene-r { width: 60px; height: 60px; top: 24px; right: 16px; }
+      .hero-fullerene-l { width: 44px; height: 44px; bottom: 40px; left: 16px; }
+      .subtitle { font-size: 14px; margin-bottom: 36px; }
+    }
+
+    /* ── MOBILE SPEAKER INFO ── */
+    @media (max-width: 600px) {
+      .speaker-name { font-size: 26px; }
+      .info-box { padding: 16px; }
+      .tags { gap: 6px; }
+      .tag { font-size: 11px; }
+    }
+
+    /* ── MOBILE FOOTER ── */
+    @media (max-width: 480px) {
+      footer { padding: 24px 16px; }
+      footer p { font-size: 11px; line-height: 1.6; }
+    }
   </style>
 </head>
 <body>
