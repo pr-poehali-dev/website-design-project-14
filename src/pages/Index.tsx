@@ -98,7 +98,7 @@ export default function Index() {
         />
         <div
           className="absolute top-1/2 left-10 w-64 h-64 rounded-full opacity-5 animate-pulse-glow"
-          style={{ background: "radial-gradient(circle, #00d4aa 0%, transparent 70%)", animationDelay: "3s" }}
+          style={{ background: "radial-gradient(circle, #c9a84c 0%, transparent 70%)", animationDelay: "3s" }}
         />
       </div>
 
@@ -107,7 +107,7 @@ export default function Index() {
         <div className="absolute top-16 right-8 md:right-20 opacity-20 animate-float text-yellow-400 w-24 h-24 md:w-40 md:h-40">
           <FullereneIcon className="w-full h-full" />
         </div>
-        <div className="absolute bottom-20 left-8 md:left-20 opacity-15 animate-float-slow text-teal-400 w-16 h-16 md:w-28 md:h-28">
+        <div className="absolute bottom-20 left-8 md:left-20 opacity-15 animate-float-slow text-yellow-400 w-16 h-16 md:w-28 md:h-28">
           <FullereneIcon className="w-full h-full" />
         </div>
 
@@ -151,7 +151,7 @@ export default function Index() {
           </h1>
           <h1
             className="font-cormorant text-5xl md:text-7xl lg:text-8xl font-light mb-10 leading-none"
-            style={{ color: "#00d4aa", textShadow: "0 0 60px rgba(0,212,170,0.4)" }}
+            style={{ color: "#f0d080", textShadow: "0 0 60px rgba(201,168,76,0.4)" }}
           >
             Вдохновения
           </h1>
@@ -181,9 +181,9 @@ export default function Index() {
               rel="noopener noreferrer"
               className="flex items-center gap-3 px-8 py-4 rounded-full font-montserrat font-medium text-base transition-all duration-300 hover:scale-105"
               style={{
-                border: "1px solid rgba(0,212,170,0.5)",
-                background: "rgba(0,212,170,0.08)",
-                color: "#00d4aa",
+                border: "1px solid rgba(201,168,76,0.5)",
+                background: "rgba(201,168,76,0.08)",
+                color: "#f0d080",
                 backdropFilter: "blur(10px)",
               }}
             >
@@ -225,8 +225,8 @@ export default function Index() {
                 icon: "Lightbulb" as const,
                 title: "В поиске Вдохновения",
                 text: "Для тех, кто ищет Вдохновение в образовании и хочет снова почувствовать радость от своей профессии",
-                color: "#00d4aa",
-                glow: "rgba(0,212,170,0.15)",
+                color: "#c9a84c",
+                glow: "rgba(201,168,76,0.15)",
               },
               {
                 icon: "Building" as const,
@@ -363,7 +363,7 @@ export default function Index() {
                 <div className="absolute -top-6 -right-6 w-16 h-16 text-yellow-400 opacity-40 animate-spin-slow">
                   <FullereneIcon className="w-full h-full" />
                 </div>
-                <div className="absolute -bottom-4 -left-4 w-10 h-10 text-teal-400 opacity-30 animate-float-slow">
+                <div className="absolute -bottom-4 -left-4 w-10 h-10 text-yellow-400 opacity-30 animate-float-slow">
                   <FullereneIcon className="w-full h-full" />
                 </div>
               </div>
@@ -382,9 +382,9 @@ export default function Index() {
                       key={tag}
                       className="text-xs font-montserrat px-3 py-1 rounded-full"
                       style={{
-                        border: "1px solid rgba(0,212,170,0.3)",
-                        color: "rgba(0,212,170,0.8)",
-                        background: "rgba(0,212,170,0.05)",
+                        border: "1px solid rgba(201,168,76,0.3)",
+                        color: "rgba(201,168,76,0.8)",
+                        background: "rgba(201,168,76,0.05)",
                       }}
                     >
                       {tag}
@@ -413,8 +413,8 @@ export default function Index() {
                   <div
                     className="rounded-2xl p-5"
                     style={{
-                      border: "1px solid rgba(0,212,170,0.15)",
-                      background: "rgba(0,212,170,0.04)",
+                      border: "1px solid rgba(201,168,76,0.15)",
+                      background: "rgba(201,168,76,0.04)",
                       backdropFilter: "blur(8px)",
                     }}
                   >
@@ -518,9 +518,9 @@ export default function Index() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 px-10 py-4 rounded-full font-montserrat font-medium text-base transition-all duration-300 hover:scale-105 w-full sm:w-auto justify-center"
                   style={{
-                    border: "1px solid rgba(0,212,170,0.5)",
-                    background: "rgba(0,212,170,0.08)",
-                    color: "#00d4aa",
+                    border: "1px solid rgba(201,168,76,0.5)",
+                    background: "rgba(201,168,76,0.08)",
+                    color: "#f0d080",
                     backdropFilter: "blur(10px)",
                   }}
                 >
