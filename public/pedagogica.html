@@ -9,6 +9,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
+    /* ── RESET PARENT SITE STYLES ── */
+    html { width: 100% !important; height: auto !important; }
+    body {
+      width: 100% !important; max-width: 100% !important;
+      margin: 0 !important; padding: 0 !important;
+      overflow-x: hidden !important;
+    }
+    div#space { display: none !important; }
+    div#container {
+      width: 100% !important; max-width: 100% !important;
+      height: auto !important; min-height: 100vh !important;
+      position: static !important; margin: 0 !important;
+      padding: 0 !important; clear: none !important;
+      float: none !important;
+    }
+
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
@@ -26,12 +42,17 @@
     html { scroll-behavior: smooth; }
 
     body {
-      font-family: 'Montserrat', sans-serif;
-      background: linear-gradient(135deg, #04030f 0%, #080520 30%, #0d0b2e 60%, #1a1045 100%);
-      color: #fff;
+      font-family: 'Montserrat', sans-serif !important;
+      background: linear-gradient(135deg, #04030f 0%, #080520 30%, #0d0b2e 60%, #1a1045 100%) !important;
+      background-color: #04030f !important;
+      color: #fff !important;
       min-height: 100vh;
       overflow-x: hidden;
+      font-size: 16px !important;
     }
+    a { color: inherit !important; text-decoration: none !important; }
+    a:visited { color: inherit !important; }
+    a:hover { color: inherit !important; text-decoration: none !important; }
 
     /* ── ANIMATIONS ── */
     @keyframes twinkle {
