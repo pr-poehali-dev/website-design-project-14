@@ -176,7 +176,7 @@ export default function Index() {
               Присоединиться в ВКонтакте
             </a>
             <a
-              href="https://wa.me/79270721673"
+              href="https://max.ru/u/f9LHodD0cOITOK5DXI_95OxLSrYxIX9PSiJsDCKc2-_VBLm-NQPBtfS-BB0"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 px-8 py-4 rounded-full font-montserrat font-medium text-base transition-all duration-300 hover:scale-105"
@@ -188,7 +188,7 @@ export default function Index() {
               }}
             >
               <Icon name="MessageCircle" size={18} />
-              Связаться в WhatsApp
+              Связаться в Макс
             </a>
           </div>
         </div>
@@ -513,7 +513,7 @@ export default function Index() {
                   Сообщество в ВКонтакте
                 </a>
                 <a
-                  href="https://wa.me/79270721673"
+                  href="https://max.ru/u/f9LHodD0cOITOK5DXI_95OxLSrYxIX9PSiJsDCKc2-_VBLm-NQPBtfS-BB0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 px-10 py-4 rounded-full font-montserrat font-medium text-base transition-all duration-300 hover:scale-105 w-full sm:w-auto justify-center"
@@ -525,7 +525,7 @@ export default function Index() {
                   }}
                 >
                   <Icon name="MessageCircle" size={20} />
-                  +7 927 072-16-73
+                  Связаться в Макс
                 </a>
               </div>
             </div>
